@@ -1,0 +1,13 @@
+.bongo-cat-responsive-addon {
+    position: inherit !important; 
+    width: 50% !important; 
+    height: 50% !important;
+}
+
+@media screen and (max-width : 999px){
+    .bongo-cat-responsive-addon {
+        position: inherit !important; 
+        width: 100% !important; 
+        height: 100% !important;
+    }   
+}

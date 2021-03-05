@@ -13,4 +13,14 @@ It makes our lives better, safer and much easier.
 
 
 
+I am Marek
+I am the software architect, software developer, engineer, web developer, embedded programmer, machine learning engineer, domain analysyst, math enthusiastic... The FullStack all the way! And much more! I just doing what I have to do to achive the goal.
+I am fascinated in solving problem's by using the thechnology. Building the solution that can help us and make our life easier is very fullfilling.
 
+I always claim that the solution always should help achieve higher goals that solution it self. For ex, The Hospital (The Product owner) ordering the new solution (IT system or medial equipment) that is more user friendly, not only want to get the "better" solution. They want to be more productive and react faster in emergency situations!   
+
+I think there is not one superior technology (for now) or way to make "the things done". Every approach has got strong sides and flaws. For ex neural networks are great in many tasks. But many of them is not suitable for devices with limited resources. 
+
+I treat every task as oportunity for gain new knowledge. There is not one supreme technology (for now) or way to make "the things done". Every approach has got strong sides and flaws. For instance neural networks are great in many tasks. But many of them is not suitable for embedded devices with limited resources. 
+
+In big ammound of duties it is very easy to forgot to enjoy from our work 
