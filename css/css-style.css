@@ -2375,3 +2375,41 @@ display:none;
 }
 .rt-box {/* float: left; *//* width: 88%; */text-align: left;margin-left: 10px;margin-bottom: 25px;text-align: center;}
 img.img.img-circle.lt-box {/* float: left; */width: 64px;height: auto;}
+
+
+
+
+
+/* Courses */
+.points{ 
+	margin-bottom: 10px;
+	font-size:14px;
+	padding-left:0px;
+}
+.courses p{
+	line-height: 1.625em;
+	padding: 15px 0;
+}
+.courses .about-us-list{
+    text-indent: 2em;
+	list-style: none;
+	margin-bottom: 20px;
+	padding-left:0px;
+}
+
+.courses .points{
+	position: relative;
+	list-style-type: none;
+	padding: 5px 0 5px 30px;
+	color: #000;
+}
+
+.courses .points:before{
+	content: "\f058";
+	position: absolute;
+	font-family: FontAwesome;
+	font-size: 1.125em;
+	color: #000000;
+	left: 0px;
+	top: 6px;
+}
