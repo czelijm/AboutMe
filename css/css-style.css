@@ -882,6 +882,7 @@ background-position-y: 70px;
 
 .about-us .points:before{
 	content: "\f058";
+	/* content: "\2193"; */
 	position: absolute;
 	font-family: FontAwesome;
 	font-size: 1.125em;
@@ -2405,9 +2406,11 @@ img.img.img-circle.lt-box {/* float: left; */width: 64px;height: auto;}
 }
 
 .courses .points:before{
+	/* content: "\2714"; */
 	content: "\f058";
 	position: absolute;
-	font-family: FontAwesome;
+	/* font-family: FontAwesome; */
+	font-family: Font Awesome\ 5 Free;
 	font-size: 1.125em;
 	color: #000000;
 	left: 0px;
