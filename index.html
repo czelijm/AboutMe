@@ -802,7 +802,7 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
     <!-- Title -->
     <div class="section-title">
       <h2>Projects</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+	<!-- <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6> -->
 	  
     </div>
     <!--/Title --> 
@@ -826,11 +826,11 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
         <li><a class="" href="#" data-filter=".design">
           <h5>Design</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".android">
-          <h5>Android</h5>
+        <li><a class="" href="#" data-filter=".mobileApp">
+          <h5>Mobile</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".appleIOS">
-          <h5>Apple IOS</h5>
+        <li><a class="" href="#" data-filter=".app">
+          <h5>App</h5>
           </a></li>
         <li><a class="" href="#" data-filter=".web">
           <h5>Web App</h5>
@@ -863,6 +863,28 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
         	<figcaption>		
 				<div>
 					<a href="#" class="" data-toggle="modal" data-target="#SpiceModal"><h2>The Spice</h2></a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+
+		<!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  app isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="images/img-portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+        	<figcaption>		
+				<div>
+					<a href="#" class="" data-toggle="modal" data-target="#travelAgencyModal"><h2>The Travel Agency</h2></a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+
+		<!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="images/img-portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+        	<figcaption>		
+				<div>
+					<a href="#" class="" data-toggle="modal" data-target="#CustomerWebApiModal"><h2>The Customer WebApi Microservice</h2></a>
 				</div>
 			</figcaption>
         </figure>
@@ -1017,13 +1039,59 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
 			<div class="modal-body">
 				<a href="https://spice-czelijm.herokuapp.com" class=""><h4>https://spice-czelijm.herokuapp.com</h4></a>
 				<h6 class="text-left">
-					 It allow for face detection on pictures, the pictures can be sended to the service via website. After face detection, the server will send cropped faces from the picture, on the provided email address. The architecture depends on microservices.
+					It allows to make account in the app (via Facebook too), to submit the order and to check the order status in real time. The App allows to manage the restaurant offer, employee's and customer's accounts, and order status. The Multi database support was provided.
 				</h6>
 	
 				<h6 class="text-left" style="margin: 0%;">
-					The ASP.NET Core, ASP.NET MVC, Razor Views, Razor Pages, LINQ, EntityFramework, SignalR, RabittMQ, MassTransit, MailKit, MSSQL Server, Microsoft Azure, Microsoft Cognitive Services, OpenCV, ImageSharp, Docker, and also Microservices were used.
+					The ASP.NET Core, ASP.NET MVC, Razor Views, Razor Pages, LINQ, EntityFramework, SendGrip, Stripe, MSSQL Server, PostreSQL, Docker, Heroku, and also Microsevice architecture were used.
 				</h6>
 			</div>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<div class="modal fade" id="travelAgencyModal" tabindex="-1" role="dialog" aria-labelledby="travelAgencyModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h4 class="modal-title" id="travelAgencyModalLabel">2021 The Travel Agency</h4>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  <h6 class="text-left">
+			  The web app that supports the travel agency data offer reading - The offers stored in .csv file are saved in data base. If data base doesn't exist then database will be created by the app. The travel offers read from database can be displayed on GUI.
+		  </h6>
+		  <h6 class="text-left" style="margin: 0%;">
+			The Java, Swing, Maven, JDBC, Hibernate, MySQL, and also  Docker were used.
+		  </h6>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<div class="modal fade" id="CustomerWebApiModal" tabindex="-1" role="dialog" aria-labelledby="CustomerWebApiModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h4 class="modal-title" id="CustomerWebApiModalLabel">2020 The Customer WebApi Microservice</h4>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<h6></h6>
+			<h6 class="text-left"></h6>
+			<h6 class="text-left" style="margin: 0%;"></h6>
+		  ...
 		</div>
 		<div class="modal-footer">
 		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -1036,12 +1104,15 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
 	<div class="modal-dialog" role="document">
 	  <div class="modal-content">
 		<div class="modal-header">
-		  <h5 class="modal-title" id="SpiceModalLabel">2021 The Spice Restaurant - Web App</h5>
+		  <h4 class="modal-title" id="SpiceModalLabel">XXXX EMPTY Web App</h4>
 		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			<span aria-hidden="true">&times;</span>
 		  </button>
 		</div>
 		<div class="modal-body">
+			<h6></h6>
+			<h6 class="text-left"></h6>
+			<h6 class="text-left" style="margin: 0%;"></h6>
 		  ...
 		</div>
 		<div class="modal-footer">
