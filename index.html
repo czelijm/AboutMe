@@ -820,8 +820,11 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
         <li><a id="all" href="#" data-filter="*" class="active">
           <h5>All</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".prototype">
-          <h5>Prototype</h5>
+        <li><a class="" href="#" data-filter=".machineLearning">
+          <h5>Machine Learning</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".embedded">
+          <h5>Embedded</h5>
           </a></li>
         <li><a class="" href="#" data-filter=".design">
           <h5>Design</h5>
@@ -842,7 +845,7 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
     <!-- Portfolio Wrapper -->
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   web isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   web machineLearning isotope-item effect-oscar">
 	   
         <div class="portfolio_img"> 
 			<img src="images/img-portfolio_pic1.jpg" alt="Portfolio 1"> </div> 
@@ -913,11 +916,33 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
       <!--/Portfolio Item --> 
 
 		<!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="images/img-portfolio_pic7.jpg" alt="Portfolio 1"> </div>
         	<figcaption>		
 				<div>
 					<a href="#" class="" data-toggle="modal" data-target="#vehicleModal"><h2>Vehicle identification and localisation</h2></a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+
+	  <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  mobileApp machineLearning embedded isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="images/img-portfolio_pic7.jpg" alt="Portfolio 1"> </div>
+        	<figcaption>		
+				<div>
+					<a href="#" class="" data-toggle="modal" data-target="#supportsFaceDetectionModal"><h2>face detection task support</h2></a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+
+	  <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="images/img-portfolio_pic7.jpg" alt="Portfolio 1"> </div>
+        	<figcaption>		
+				<div>
+					<a href="#" class="" data-toggle="modal" data-target="#NewsletterModal"><h2>The Newletter - CzelijM</h2></a>
 				</div>
 			</figcaption>
         </figure>
@@ -1182,7 +1207,47 @@ Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
 		</div>
 		<div class="modal-body">
 			<h6 class="text-left" style="margin: 0%;">The description of the system and requirements identification was done; the conceptual system solution was proposed.</h6>
-		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<div class="modal fade" id="supportsFaceDetectionModal" tabindex="-1" role="dialog" aria-labelledby="supportsFaceDetectionModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h4 class="modal-title" id="supportsFaceDetectionModalLabel">2020 Development of own algorithm that supports face detection task in video sequence for embedded systems</h4>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<h6 class="text-left">The algorithm that is supporting face detection task - it determines that the frame from a video sequence is needed for computing face detection. This algorithm is created for the embedded systems and systems with constrained resources. The few implementations was created; The PC and mobile version of the algorithm was created.</h6>
+			<h6 class="text-left" style="margin: 0%;">The OpenMP, OpenACC, OpenCL, OpenCV, Java Native Interface, Tensorflow, Tensorflow Lite were used.</h6>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<div class="modal fade" id="NewsletterModal" tabindex="-1" role="dialog" aria-labelledby="NewsletterModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h4 class="modal-title" id="NewsletterModalLabel">The Newletter - CzelijM</h4>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<a href="https://aqueous-refuge-45734.herokuapp.com/" class=""><h4>https://aqueous-refuge-45734.herokuapp.com/</h4></a>
+			<h6 class="text-left" style="margin-bottom: 2%;">The Newsletter</h6>
+			<h6 class="text-left" style="margin: 0%;">heroku and mailchimp are used</h6>
 		</div>
 		<div class="modal-footer">
 		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
