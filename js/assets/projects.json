@@ -2,26 +2,26 @@
     "categories": [
         {
             "name":"ALL",
-            "data-filter":"*"
+            "datafilter":"*"
         },
         {
             "name":"PROTOTYPE",
-            "data-filter":".prototype"
+            "datafilter":".prototype"
         },
         {
             "name":"DESIGN",
-            "data-filter":".design"
+            "datafilter":".design"
         },
         {
             "name":"ANDROID",
-            "data-filter":".android"
+            "datafilter":".android"
         },
         {
             "name":"APPLE IOS",
-            "data-filter":".appleIOS"
+            "datafilter":".appleIOS"
         },
         {
             "name":"WEB APP",
-            "data-filter":".web"
+            "datafilter":".web"
         }]
 }
