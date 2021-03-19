@@ -23,5 +23,41 @@
         {
             "name":"WEB APP",
             "datafilter":".web"
-        }]
+        }],
+    "porftolioItems":[
+        {
+            "id":"FacesAndFaces",
+            "title":"The FacesAndFaces - Web App",
+            "titleShort":"FacesAndFaces",
+            "date":"2021",
+            "tags":"web machineLearning",
+            "image":"images/img-portfolio_pic1.jpg",
+            "link":"",
+            "description":"It allow for face detection on pictures, the pictures can be sended to the service via website. After face detection, the server will send cropped faces from the picture, on the provided email address. The architecture depends on microservices.",
+            "technologies":"The ASP.NET Core, ASP.NET MVC, Razor Views, Razor Pages, LINQ, EntityFramework, SignalR, RabittMQ, MassTransit, MailKit, MSSQL Server, Microsoft Azure, Microsoft Cognitive Services, OpenCV, ImageSharp, Docker, and also Microservices were used."
+        }, 
+        {
+            "id":"ALL",
+            "title":"The Spice",
+            "titleShort":"Spice",
+            "date":"2021",
+            "tags":"web",
+            "image":"images/img-portfolio_pic2.jpg",
+            "link":"",
+            "description":"",
+            "technologies":""
+        }
+        // {
+        //     "id":"ALL",
+        //     "title":"",
+        //     "titleShort":"",
+        //     "date":"",
+        //     "tags":"",
+        //     "image":"",
+        //     "link":"",
+        //     "description":"",
+        //     "technologies":""
+        // },
+
+    ]
 }
