@@ -1,0 +1,27 @@
+{
+    "categories": [
+        {
+            "name":"ALL",
+            "data-filter":"*"
+        },
+        {
+            "name":"PROTOTYPE",
+            "data-filter":".prototype"
+        },
+        {
+            "name":"DESIGN",
+            "data-filter":".design"
+        },
+        {
+            "name":"ANDROID",
+            "data-filter":".android"
+        },
+        {
+            "name":"APPLE IOS",
+            "data-filter":".appleIOS"
+        },
+        {
+            "name":"WEB APP",
+            "data-filter":".web"
+        }]
+}
