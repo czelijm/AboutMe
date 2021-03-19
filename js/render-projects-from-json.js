@@ -12,7 +12,7 @@ function renderProjectCategoryJson(){
 
         //htmlRender
         $('#filters').html(htmlCategoryPorfolioList(data.categories));
-       // $('#portfolio_wrapper').html(htmlPorfolioItems(data.porftolioItems));
+        $('#portfolio_wrapper').html(htmlPorfolioItems(data.porftolioItems));
     })
 }
 
@@ -26,13 +26,13 @@ function htmlCategoryPorfolioList(categories){
             innerHtmlFilterUl.push('<li><a id="all" href="#" data-filter='+ category.datafilter+' class="active">'+
             '<h5>'+category.name+'</h5> </a></li>');
         }else{
-            innerHtmlFilterUl.push('<li><a id="" href="#" data-filter='+ category.datafilter+'>'+
+            innerHtmlFilterUl.push('<li><a href="#" data-filter='+ category.datafilter+'>'+
             '<h5>'+category.name+'</h5> </a></li>');
         }
     });
     innerHtmlFilterUl.push('</ul>');
-    // console.log(innerHtmlFilterUl.join(","));
-    return innerHtmlFilterUl.join(","); 
+    // console.log(innerHtmlFilterUl.join(""));
+    return innerHtmlFilterUl.join(""); 
 }
 
 
@@ -41,12 +41,12 @@ function htmlPorfolioItems(porftolioItems){
     porftolioItems.forEach(item=>{
         innerHtml.push(htmlPorfolioItem(item));
     })
-    console.log(innerHtmlFilterUl.join(","));
-    return innerHtml.join(",");
+    console.log(innerHtml.join(""));
+    return innerHtml.join("");
 }
 
 function htmlPorfolioItem(item) {
-   return '<figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four machineLearning isotope-item effect-oscar '+item.tags+' ">'+
+   return '<figure style="position: inherit; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four isotope-item effect-oscar '+item.tags+' ">'+
     '<div class="portfolio_img">'+
     '<img src="'+item.image+'" alt="Portfolio 1"> </div> '+
     '<figcaption>'+	
@@ -55,7 +55,8 @@ function htmlPorfolioItem(item) {
                 '<a href="#" class="" data-toggle="modal" data-target="#'+item.id+'Modal"><h2>'+item.titleShort+'</h2></a>'+
                 '</div>'+
     '</figcaption>'+
-    '</figure>'+
+    '</figure>'
+   +
     '<div class="modal fade" id="#'+item.id+'Modal" tabindex="-1" role="dialog" aria-labelledby="#'+item.id+'ModalLabel" aria-hidden="true">'+
 	'<div class="modal-dialog" role="document">'+
 	  '<div class="modal-content">'+
@@ -75,7 +76,8 @@ function htmlPorfolioItem(item) {
 		'</div>'+
 	 ' </div>'+
 	'</div>'+
-  '</div>';
+  '</div>'
+  ;
 
 }
 
@@ -83,7 +85,7 @@ function htmlPorfolioItem(item) {
 
 
 
-$(document).ready(
+$(
     renderProjectsFromJson()
 );
 
