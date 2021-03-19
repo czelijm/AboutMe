@@ -11,7 +11,7 @@ function renderProjectCategoryJson(){
         //html processing
 
         //htmlRender
-        $('#filters').html(htmlCategoryPorfolioList(data.categories));
+        //$('#filters').html(htmlCategoryPorfolioList(data.categories));
         $('#portfolio_wrapper').html(htmlPorfolioItems(data.porftolioItems));
     })
 }
