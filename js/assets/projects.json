@@ -37,7 +37,7 @@
             "technologies":"The ASP.NET Core, ASP.NET MVC, Razor Views, Razor Pages, LINQ, EntityFramework, SignalR, RabittMQ, MassTransit, MailKit, MSSQL Server, Microsoft Azure, Microsoft Cognitive Services, OpenCV, ImageSharp, Docker, and also Microservices were used."
         }, 
         {
-            "id":"ALL",
+            "id":"Spice",
             "title":"The Spice",
             "titleShort":"Spice",
             "date":"2021",

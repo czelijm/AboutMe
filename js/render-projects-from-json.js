@@ -12,7 +12,7 @@ function renderProjectCategoryJson(){
 
         //htmlRender
         $('#filters').html(htmlCategoryPorfolioList(data.categories));
-        $('#portfolio_wrapper').html(htmlPorfolioItems(data.porftolioItems));
+       // $('#portfolio_wrapper').html(htmlPorfolioItems(data.porftolioItems));
     })
 }
 
@@ -41,6 +41,7 @@ function htmlPorfolioItems(porftolioItems){
     porftolioItems.forEach(item=>{
         innerHtml.push(htmlPorfolioItem(item));
     })
+    console.log(innerHtmlFilterUl.join(","));
     return innerHtml.join(",");
 }
 
