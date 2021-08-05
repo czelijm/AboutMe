@@ -1,0 +1,11 @@
+.align-project-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
